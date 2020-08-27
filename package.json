@@ -1,0 +1,25 @@
+{
+  "name": "educloud_node",
+  "version": "1.0.0",
+  "description": "testing node on educloud virtual server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennaturunen/educloud_node.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Jenna Turunen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennaturunen/educloud_node/issues"
+  },
+  "homepage": "https://github.com/jennaturunen/educloud_node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
