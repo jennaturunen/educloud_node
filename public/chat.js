@@ -10,6 +10,7 @@ let leaveRoom = '';
 for (const room of allRooms) {
   room.addEventListener('click', () => {
     document.getElementById('messages').innerHTML = '';
+    document.querySelector('#send-msg-form').style.display = 'block';
     enterRoom = room.textContent;
     socket.emit('joinRoom', enterRoom);
     showSelectedRoom.textContent = `You entered to room: ${enterRoom}`;
