@@ -1,6 +1,6 @@
 'use strict';
 
-const socket = io();
+const socket = io('http://10.114.32.6/');
 
 const allRooms = document.querySelectorAll('.room');
 const showSelectedRoom = document.querySelector('#selected-room');
